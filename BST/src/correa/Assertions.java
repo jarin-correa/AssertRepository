@@ -13,7 +13,7 @@ public class Assertions {
 		}
 		b.displayInOrder();
 		System.out.println("Now only odds");
-		oddsOnly(a);
+		oddsOnly(a); //deletes all even nodes
 		b.displayInOrder();
 		//b.addNode(1); assert for duplicate node.
 		//b.deleteNode(54); assert for non-existing node.
